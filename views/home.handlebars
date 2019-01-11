@@ -8,9 +8,10 @@
   <li>{{this.name}}</li>
   {{/each}}
 </ul>
-
-{{reviewQuestion}}
-{{#each comments}}<br />
-{{this.author}}<br />
-{{this.authorComment}}
-{{/each}}
+<div class="card">
+  {{reviewQuestion}}
+  {{#each comments}}<br />
+  {{this.author}}<br />
+  {{this.authorComment}}
+  {{/each}}
+</div>
